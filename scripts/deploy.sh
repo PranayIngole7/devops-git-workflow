@@ -1,4 +1,3 @@
 #!/bin/bash
 echo "Starting DevOps Deployment Pipeline..."
-echo "Environment: Development"
-echo "Environment: Production"
+echo "Environment: ${APP_ENV:-Development}"
