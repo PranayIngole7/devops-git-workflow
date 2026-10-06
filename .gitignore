@@ -1,0 +1,24 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs and environment files
+*.log
+.env
+.env.*
+!*.env.example
+
+# IDE & Editor settings
+.vscode/
+.idea/
+
+# Terraform / Infrastructure temporary files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Python / Node / Java build outputs
+__pycache__/
+node_modules/
+target/
+dist/
